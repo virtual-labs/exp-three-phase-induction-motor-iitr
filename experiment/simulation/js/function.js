@@ -373,6 +373,12 @@ check.onclick = function checkConn() {
             w2.disabled = false
             w2.style.border = '3px solid red'
         }
+        
+    }
+
+    else {
+
+        window.alert("Please make all the connections!")
     }
 }
 
@@ -424,6 +430,7 @@ function refresh() {
 }
 
 w1.oninput = function () {
+    
     flags4 = 1
     w2.selectedIndex = w1.selectedIndex;
     w1.style.border = '0px solid red'
@@ -432,9 +439,12 @@ w1.oninput = function () {
 
     if (MCB_state == 1) {
         refresh()
+       add.disabled=0;
+
     }
 }
 w2.oninput = function () {
+    
     flags4 = 1
     w1.selectedIndex = w2.selectedIndex;
     w1.style.border = '0px solid red'
@@ -444,6 +454,7 @@ w2.oninput = function () {
     if (MCB_state == 1) {
         refresh()
     }
+    
 }
 
 MCB.onclick = function toggle_MCB() {
@@ -464,11 +475,14 @@ MCB.onclick = function toggle_MCB() {
         refresh()
         allow = 1
         flags3 = 1
+        add.disabled=0;
     }
 }
 
 add.onclick = function AddToTable() {
+
     if (index <= 6) {
+        
         calculateTorque()
         var torque = Torque;
         var speed = MTSpeed
@@ -497,10 +511,16 @@ add.onclick = function AddToTable() {
 
         index = index + 1
 
+      
+
         if (index > 6) {
             plot.disabled = false
+            
         }
+
+        add.disabled=1;
     }
+
 }
 
 plot.onclick = function plotGraph() {
@@ -553,6 +573,8 @@ plot.onclick = function plotGraph() {
             }
         }
     });
+
+    plot.disabled=1;
 }
 
 // var allow = 0
