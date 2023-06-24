@@ -40,19 +40,19 @@ The torque developed by the induction motor is given by (3)
 where, W<sub>s</sub> is the synchronous speed in rps, V<sub>s</sub> is the voltage applied to the stator, I~2~, R~2~, X~2~ are the rotor current, resistance and reactance referred to stator respectively. R~1~, X~1~ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T-N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed, Tm and the slip, S<sub>m</sub> at which T<sub>m</sub> occurs is given by (4).
 
 
-<!--- $$\displaystyle{T}_{{m}}=\frac{3}{{{2}{W}_{{s}}}}\frac{{{\left({V}_{{s}}\right)}^{2}}}{{{R}{1}\pm\sqrt{{{R}{1}^{2}\pm{\left({X}{1}+{X}{2}\right)}^{2}}}}}    $$  --->
+$$\displaystyle{T}_{{m}}=\frac{3}{{{2}{W}_{{s}}}}\frac{{{\left({V}_{{s}}\right)}^{2}}}{{{R}{1}\pm\sqrt{{{R}{1}^{2}\pm{\left({X}{1}+{X}{2}\right)}^{2}}}}}    $$  --->
 
 
-<!--- $$\displaystyle{S}_{{m}}=\frac{{{R}{2}}}{{\sqrt{{{R}{2}^{2}+{\left({X}{1}+{X}{2}\right)}^{2}}}}}  $$  --->
+$$\displaystyle{S}_{{m}}=\frac{{{R}{2}}}{{\sqrt{{{R}{2}^{2}+{\left({X}{1}+{X}{2}\right)}^{2}}}}}  $$  --->
 
 
-<!--- $$\displaystyle{S}_{{m}}∝{R}{2}$$ --->
+$$\displaystyle{S}_{{m}}∝{R}{2}$$ --->
 
 
 T-N<sub>r</sub> characteristics with variable stator voltage. If voltage applied to the stator of the induction motor is varied, developed torque will vary within a relation.
 
 
-<!--- $$\displaystyle{T}∝{\left({V}_{{s}}\right)}^{2}........(4)  $$  --->
+$$\displaystyle{T}∝{\left({V}_{{s}}\right)}^{2}........(4)  $$  --->
 
 
 The maximum torque developed, Tm is also proportional to square of the applied voltage as in eq.(4), but S<sub>m</sub> is independent of applied voltage. So, if the T-N<sub>r</sub> characteristics is plotted for different voltages, we get the characteristics as shown in Fig. 2
@@ -75,7 +75,7 @@ The torque-speed characteristics of a three-phase induction motor is a straight 
 
 If weight of load on rotating pully in induction motor are W1 & W2. Then the torque of induction motor is
 
-<!--- $$T=(W1 - W2)*9.81*r    ..........(5)  $$  --->
+$$T=(W1 - W2)*9.81*r    ..........(5)  $$  --->
  
 <center> Where, r = radius of brake drum (r=0.15m)  </center>
 
