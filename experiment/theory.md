@@ -34,7 +34,7 @@ The torque developed by the induction motor is given by (3)
  $$\displaystyle T=\frac{{ 3\left(I2\right)^2 R2 }} {{ W_s\cdot S }} $$  
 
 
- $$\displaystyle T=\frac 3{{ W_s }} \frac{{ \left(V_s\right)^2 \frac {{ R2 }}{{ S} }}}{{\left(R1+\frac{{ R2 }} {{S}}\right)^2+\left(X1+X2\right)^2 }}.......(3)   $$  
+ $$\displaystyle T=\frac 3{{ W_s }} \frac{{ \left(V_s\right)^2 \frac {{ R2 }} {{ S}} }} {{ \left(R1+\frac{{ R2 }} {{S}}\right)^2+\left(X1+X2\right)^2 }}.......(3)   $$  
 
 
 where, W<sub>s</sub> is the synchronous speed in rps, V<sub>s</sub> is the voltage applied to the stator, I~2~, R~2~, X~2~ are the rotor current, resistance and reactance referred to stator respectively. R~1~, X~1~ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T-N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed, Tm and the slip, S<sub>m</sub> at which T<sub>m</sub> occurs is given by (4).
