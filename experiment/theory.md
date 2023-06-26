@@ -20,21 +20,21 @@ Consider a three phase squirrel cage induction motor whose stator has three wind
 
 
 
- $$\displaystyle{N}_{{ s }}=\frac{{ 120 f }} {{ P }}..........(1)  $$   
+ $$\displaystyle N_ s =\frac{{ 120 f }} {{ P }}..........(1)  $$   
 
 
 where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by (2).
 
 
-$$\displaystyle{s}=\frac{{ N_s–N_r }} {{ N_s}}..........(2)     $$ 
+$$\displaystyle s=\frac{{ N_s–N_r }} {{ N_s}}..........(2)     $$ 
 
 
 The torque developed by the induction motor is given by (3)
 
- $$\displaystyle{T}=\frac{{ 3{\left(I2\right)}^2R2 }} {{ W_s\cdot S }} $$  
+ $$\displaystyle T=\frac{{ 3{\left(I2\right)}^2 R2 }} {{ W_s\cdot S }} $$  
 
 
- $$\displaystyle{T}=\frac 3{{ W_s }} \frac{{ {\left(V_s\right)}^2 \frac {{ R2 }}{{ S} }}}{{{\left(R1+\frac{{ R2 }} {{S}}\right)}^2+{\left(X1+X2\right)}^2 }}.......(3)   $$  
+ $$\displaystyle T=\frac 3{{ W_s }} \frac{{ {\left(V_s\right)}^2 \frac {{ R2 }}{{ S} }}}{{{\left(R1+\frac{{ R2 }} {{S}}\right)}^2+{\left(X1+X2\right)}^2 }}.......(3)   $$  
 
 
 where, W<sub>s</sub> is the synchronous speed in rps, V<sub>s</sub> is the voltage applied to the stator, I~2~, R~2~, X~2~ are the rotor current, resistance and reactance referred to stator respectively. R~1~, X~1~ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T-N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed, Tm and the slip, S<sub>m</sub> at which T<sub>m</sub> occurs is given by (4).
@@ -43,7 +43,7 @@ where, W<sub>s</sub> is the synchronous speed in rps, V<sub>s</sub> is the volta
 $$\displaystyle T_m=\frac 3{{2W_s}} \frac{{ \left(V_s\right)^2 }} {{ R1\pm\sqrt{{ R1^2\pm{\left(X1+X2\right)}^2}} }}    $$  
 
 
-$$\displaystyle S_{m}=\frac{{ R2 }} {{\sqrt{{ R2^2+{\left(X1+X2\right)}^2 }} }}  $$ 
+$$\displaystyle S_m=\frac{{ R2 }} {{\sqrt{{ R2^2+{\left(X1+X2\right)}^2 }} }}  $$ 
 
 
 $$\displaystyle S_m ∝ R2 $$ 
