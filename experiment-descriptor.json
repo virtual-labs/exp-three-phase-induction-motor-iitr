@@ -2,7 +2,7 @@
   "unit-type": "lu",
   "label": "Basic Electrical Science Experiment",
   "basedir": ".",
-  "LaTeXinMD": true,
+  "LaTeXinMD": false,
   "units": [
     {
       "unit-type": "aim"
