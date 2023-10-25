@@ -13,6 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@firestitch/jsplumb@2.12.0/dist/js/jsplumb.min.js"></script>
     <script src="CDN_folder/ChartCDN.js"></script>
 
+                                                                  <!-- Internal css code    -->
+
 
     <style>
         footer {
@@ -30,8 +32,11 @@
     </style>
 
 
-
+                                                                         <!-- Ends here -->  
 </head>
+
+
+
 
 <body>
     <div class="container">
@@ -47,22 +52,24 @@
                 <p>Instructions</p>
 
                 <ul  type="none" class="steps">
-                    <li id="s1" style="color: red;"><b>Step 1:</b> Make connections as per the instructions given below:
+                    <li><b>Step 1:</b> Make connections as per the instructions given below:
                     </li>
-                    <ul><br/>
-                        <li>(1-4), (2-5), (3-6)</li>
-                        <li>(7-10), (8-11)</li>
-                        <li> (7-12), (13-14)</li>
-                        <li>(8-15), (9-16)</li>
-                    </ul><br/>
-                    <li id="s2"><b>Step 2:</b> Check the connections by clicking on the <b> ‘CHECK’</b> button. </li><br/>
-                    <li id="s3"><b>Step 3:</b> Turn on the MCB </li><br/>
-                    <li id="s4"><b>Step 4:</b> Vary the values of w1 and w2 to and add observations to table by clicking
-                        on <b>'ADD'</b>. </li><br/>
-                    <li id="s5"><b>Step 5:</b> Take atleast 6 reading in table. </li><br/>
-                    <li id="s6"><b>Step 6:</b> Click on the <b> ‘PLOT’</b> button to plot the graph. </li><br/>
-                    <li id="s7"><b>Step 7:</b> Click on the <b> ‘PRINT’</b> button to takeout the print of the webpage. </li><br/>
-                    <li id="s8"><b>Step 8:</b> Click on <b> 'RESET'</b> to reset the experiment.</li><br/>
+                </br>
+                        <li> (a) (1-4), (2-5), (3-6)</li></br>
+                        <li> (b) (7-10), (8-11)</li></br>
+                        <li> (c) (7-12), (13-14)</li></br>
+                        <li> (d) (8-15), (9-16)</li>
+                    <br/>
+                    <li><b>Step 2:</b> Check the connections by clicking on the <b> ‘CHECK’</b> button. </li></br>
+                    <li><b>Step 3:</b> Select the first weight from w1 and w2.</li></br>
+                       
+                    <li><b>Step 4:</b> Turn on the MCB. </li></br>
+                    <li><b>Step 5 </b> Click on the <b>'ADD'</b> button to add the reading in the observation table. </li></br>
+                    <li><b>Step 6:</b> Vary the values of <b>w1 and w2</b> and add the readings to the observation table using <b>ADD</b> button.</li></br>
+                    <li><b>Step 7:</b> Take atleast 6 readings in the table. </li></br>
+                    <li><b>Step 8:</b> Click on the <b> ‘PLOT’</b> button to plot the graph. </li></br>
+                    <li><b>Step 9:</b> Click on the <b> ‘PRINT’</b> button to takeout the print of the webpage. </li></br>
+                    <li><b>Step 10:</b> Click on <b> 'RESET'</b> to reset the experiment.</li></br>
 
                 </ul>
 
@@ -80,6 +87,7 @@
 
             <div class="r2c1">
 
+                                                     <!--Html buttons for the working of the simulation activities -->
 
                 <div class="action-buttons">
                     <p  style="  padding: 8px; color:white; border-radius: 10px; background-color:#1e1e1e;">ACTION BUTTONS</p>
@@ -89,10 +97,11 @@
                         <button id="plot" disabled="true">PLOT</button>
                         <button id="reset" onclick='window.location.reload();'>RESET</button>
                         <button id="print" disabled="true" onclick=' window.print();'>PRINT</button>
-                        <!--THIS IS TO BE KEPT IN A FLEX BOX-->
                     </div>
                 </div>
-                <!--Row 2 Col 1 Row1-->
+             
+                                                                         <!--  Ends here-->
+
 
                 <div class="formulas">
                     <p  style=" padding: 8px;  color:white; border-radius: 10px; background-color:#1e1e1e;">FORMULAS</p>
@@ -113,11 +122,12 @@
                     <label for="R3">R3</label> -->
                 </div>
 
-                <!--Row 2 Col 1 Row2-->
+                                                         <!--  Observation table to add the calculated values -->
+
+
                 <div class="o_table">
                     <p  style=" padding: 8px; color:white; border-radius: 10px; background-color:#1e1e1e;">OBSERVATION TABLE</p>
                     <div style="width:100px" class="table">
-                        <!--TABLE TO BE DISPLAYED HERE-->
                         <table   id="valTable">
                             <tr>
                                 <th>S.No</th>
@@ -133,10 +143,8 @@
                         </table>
                     </div>
                 </div>
-                <!--Row 3 Col 1 -->
-
-
-
+               
+                                                                           <!-- Ends here -->
             </div>
 
 
@@ -149,43 +157,42 @@
                         <div class="mcb">
                             <img src="images/MCB_Off.png" id="M" height="120" width="100" alt="">
                             <button id="on_power" disabled="true"></button>
-                            <button id="mcb_r"><label id="label1" onclick="disconnect(0)">1</label></button>
-                            <button id="mcb_b"><label id="label2" onclick="disconnect(1)">2</label></button>
-                            <button id="mcb_y"><label id="label3" onclick="disconnect(2)">3</label></button>
+                            <button id="mcb_r"><label style="z-index: 2;" id="label1" onclick="disconnect(0)">1</label></button>
+                            <button id="mcb_b"><label style="z-index: 2;" id="label2" onclick="disconnect(1)">2</label></button>
+                            <button id="mcb_y"><label style="z-index: 2;" id="label3" onclick="disconnect(2)">3</label></button>
                         </div>
 
-
-
                         <div class="motor-starter">
-                            <button id="i_r"><label id="label4" onclick="disconnect(3)">4</label></button>
-                            <button id="i_b"><label id="label5" onclick="disconnect(4)">5</label></button>
-                            <button id="i_y"><label id="label6" onclick="disconnect(5)">6</label></button>
+                            <button id="i_r"><label style="z-index: 2;" id="label4" onclick="disconnect(3)">4</label></button>
+                            <button id="i_b"><label style="z-index: 2;" id="label5" onclick="disconnect(4)">5</label></button>
+                            <button id="i_y"><label style="z-index: 2;" id="label6" onclick="disconnect(5)">6</label></button>
 
                             <img src="images/motor-starter.png" id="starter" height="250" width="250" alt="">
 
-                            <button id="o_r"><label id="label7" onclick="disconnect(6)">7</label></button>
-                            <button id="o_b"><label id="label8" onclick="disconnect(7)">8</label></button>
-                            <button id="o_y"><label id="label9" onclick="disconnect(8)">9</label></button>
+                            <button id="o_r"><label style="z-index: 2;" id="label7" onclick="disconnect(6)">7</label></button>
+                            <button id="o_b"><label style="z-index: 2;" id="label8" onclick="disconnect(7)">8</label></button>
+                            <button id="o_y"><label style="z-index: 2;" id="label9" onclick="disconnect(8)">9</label></button>
 
 
                         </div>
                         <!---------------------------------------------------------->
                         <div class="voltmeter">
+
                             <img src="images/V1.png" id="V" height="180" width="180" alt="">
                             <img src="images/Pointer.png" height="11" width="44" id="P_V" alt="">
-                            <button id="p_v"><label id="label10" onclick="disconnect(9)">10</label></button>
-                            <button id="n_v"><label id="label11" onclick="disconnect(10)">11</label></button>
+                            <button id="p_v"><label style="z-index: 2;" id="label10" onclick="disconnect(9)">10</label></button>
+                            <button id="n_v"><label style="z-index: 2;" id="label11" onclick="disconnect(10)">11</label></button>
 
                         </div>
 
                         <!--------------------------------------------------------->
 
                         <div class="ammeter">
+
                             <img src="images/A1.png" id="A" height="180" width="180" alt="">
                             <img src="images/Pointer.png" height="11" width="44" id="P_A" alt="">
-                            <button id="p_a"><label id="label12" onclick="disconnect(11)">12</label></button>
-                            <button id="n_a"><label id="label13" onclick="disconnect(12)">13</label></button>
-
+                            <button id="p_a"><label style="z-index: 2;" id="label12" onclick="disconnect(11)">12</label></button>
+                            <button id="n_a"><label style="z-index: 2;" id="label13" onclick="disconnect(12)">13</label></button>
                         </div>
                         <!--------------------------------------------------------->
 
@@ -193,27 +200,20 @@
 
                         <!--------------------------------------------------------->
 
-
-
-
                         <!--------------------------------------------------------->
 
                     </div>
                     <div class="motor-view">
                         <p>MOTOR VIEW</p>
-                        <button id="motor-1"><label id="label14" onclick="disconnect(13)">14</label></button>
-                        <button id="motor-2"><label id="label15" onclick="disconnect(14)">15</label></button>
-                        <button id="motor-3"><label id="label16" onclick="disconnect(15)">16</label></button>
+                        <button id="motor-1"><label style="z-index: 2;" id="label14" onclick="disconnect(13)">14</label></button>
+                        <button id="motor-2"><label style="z-index: 2;" id="label15" onclick="disconnect(14)">15</label></button>
+                        <button id="motor-3"><label style="z-index: 2;" id="label16" onclick="disconnect(15)">16</label></button>
                         <br>
                         <!-- <button id = "motor-4"></button>
                             <button id = "motor-5"></button>
                             <button id = "motor-6"></button> -->
                         <img src="images/3-phase induction motor copy.png" alt="" height="280" width="280"
                             id="motor">
-
-
-
-
 
                     </div>
                     <div style="position: absolute; margin-top: 225px; margin-left: 500px;" class="rotor-view">
@@ -272,6 +272,7 @@
 
         <div class="clear"></div>
 
+                                                           <!-- Graph starts from here -->
 
         <div  style="margin-left: 50px;" class="graph" id="plotContiner">
             <div  class="graph-heading">
@@ -286,20 +287,33 @@
 
         </div>
 
+                                                                     <!--  Ends here -->
+
     </div>
 
+                                                                  <!--  Main Container ends here   -->
+
+
+                                                                  <!-- Footer starts from here -->
     <footer>
 
         <p> &#169; Copyright 2022 Virtual Labs, IIT Roorkee </p>
 
     </footer>
 
+                                                                           <!-- Ends  here -->
+
 
 </body>
+
+                                                         <!-- Javascript code file  -->
 
 <script src="js/function.js"></script>
 <!-- latex cdn -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/startup.js"></script> -->
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+
+                                                             <!--  Ends here -->
+
 
 </html>
