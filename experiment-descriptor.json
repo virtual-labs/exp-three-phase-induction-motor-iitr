@@ -1,8 +1,8 @@
 {
   "unit-type": "lu",
-  "label": "Basic Electrical Science Experiment",
+  "label": "Network Theorem Experiment",
   "basedir": ".",
-  "LaTeXinMD": false,
+  "LaTeXinMD": true,
   "units": [
     {
       "unit-type": "aim"
