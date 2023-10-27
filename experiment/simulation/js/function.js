@@ -7,12 +7,11 @@ prnt = document.getElementById("print")
 
 MCB_image = document.getElementById("M")
 MCB = document.getElementById("on_power")
-
-       // label starts from here 
-
 MCB_Blue = document.getElementById("mcb_b")
-MCB_Yellow = document.getElementById("mcb_y")   // FOR YELLOWE NODE
+MCB_Yellow = document.getElementById("mcb_y")
 MCB_Red = document.getElementById("mcb_r")
+
+rotor = document.getElementById("rotor2")
 
 StarterInRed = document.getElementById("i_r")
 StarterInYel = document.getElementById("i_y")
@@ -30,14 +29,12 @@ MotorInBlu = document.getElementById("motor-3")
 
 VoltmeterPositive = document.getElementById("p_v")
 VoltmeterNegative = document.getElementById("n_v")
+VoltmeterNeedle = document.getElementById("P_V")
+
 AmmeterPositive = document.getElementById("p_a")
 AmmeterNegative = document.getElementById("n_a")
-
-         // label ends here 
-
-rotor = document.getElementById("rotor2")
-VoltmeterNeedle = document.getElementById("P_V")
 AmmeterNeedle = document.getElementById("P_A")
+
 vtable = document.getElementById("valTable")
 
 w1 = document.getElementById("w1_motor")
@@ -59,18 +56,18 @@ var SpeedList = []
 var TorqueList = []
 var index = 1
 
-var s1 = document.getElementById("s1");
-var s2 = document.getElementById("s2");
-var s3 = document.getElementById("s3");
-var s4 = document.getElementById("s4");
-var s5 = document.getElementById("s5");
-var s6 = document.getElementById("s6");
+var s1 = document.getElementById("s1")
+var s2 = document.getElementById("s2")
+var s3 = document.getElementById("s3")
+var s4 = document.getElementById("s4")
+var s5 = document.getElementById("s5")
+var s6 = document.getElementById("s6")
 
-var flags2 = 0;
-var flags3 = 0;
-var flags4 = 0;
-var flags5 = 0;
-var flags6 = 0;
+var flags2 = 0
+var flags3 = 0
+var flags4 = 0
+var flags5 = 0
+var flags6 = 0
 
 
 const instance = jsPlumb.getInstance({
@@ -109,8 +106,8 @@ instance.bind("ready", function () {
         connectionsDetachable: true,
         connectionType: "red0",
         paintStyle: { fill: "red", strokeWidth: 2.5 },
-        maxConnections: 1,
-        connector: ["StateMachine", { curviness: 30 }]
+        maxConnections: 10,
+        connector: ["StateMachine", { curviness: 50 }]
     })
 
     instance.addEndpoint([MCB_Blue], {
@@ -121,7 +118,7 @@ instance.bind("ready", function () {
         connectionsDetachable: true,
         connectionType: "blue0",
         paintStyle: { fill: "blue", strokeWidth: 2.5 },
-        maxConnections: 1
+        maxConnections: 10
     })
 
     instance.addEndpoint([MCB_Yellow], {
@@ -132,10 +129,10 @@ instance.bind("ready", function () {
         connectionsDetachable: true,
         connectionType: "yellow0",
         paintStyle: { fill: "yellow", strokeWidth: 2.5 },
-        maxConnections: 1
+        maxConnections: 10
     })
 
-    instance.addEndpoint([StarterInBlu, StarterInRed, StarterInYel, StarterOutYel, MotorInBlu, MotorInRed, MotorInYel], {
+    instance.addEndpoint([StarterInBlu, StarterInRed, StarterInYel, StarterOutBlu, StarterOutRed, StarterOutYel, MotorInBlu, MotorInRed, MotorInYel], {
         endpoint: "Dot",
         anchor: ["Center"],
         isSource: true,
@@ -143,36 +140,9 @@ instance.bind("ready", function () {
         connectionsDetachable: true,
         connectionType: "red",
         paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-        maxConnections: 1
+        maxConnections: 10
     })
 
-
-instance.addEndpoint([StarterOutRed], {
-  endpoint: "Dot",
-  anchor: ["Center"],
-  isSource: true,
-  isTarget: true,
-  connectionsDetachable: true,
-  connectionType: "red",
-  paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-  maxConnections: 2,
-  connector: ["StateMachine", { curviness: -110 }],
-});
-
-
-    instance.addEndpoint([StarterOutBlu], {
-
-      endpoint: "Dot",
-      anchor: ["Center"],
-      isSource: true,
-      isTarget: true,
-      connectionsDetachable: true,
-      connectionType: "red",
-      paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-      maxConnections: 2,
-      connector: ["StateMachine", { curviness: -110 }],
-
-    });
     // instance.addEndpoint([MotorOutBlu, MotorOutRed, MotorOutYel], {
     //     endpoint: "Dot",
     //     anchor: ["Center"],
@@ -193,7 +163,7 @@ instance.addEndpoint([StarterOutRed], {
         connectionsDetachable: true,
         connectionType: "blue",
         paintStyle: { fill: "rgb(97, 97, 229)", strokeWidth: 2.5 },
-        maxConnections: 1,
+        maxConnections: 10,
         connector: ["StateMachine", { curviness: -30 }]
     })
 
@@ -205,7 +175,7 @@ instance.addEndpoint([StarterOutRed], {
         connectionsDetachable: true,
         connectionType: "red",
         paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-        maxConnections: 1,
+        maxConnections: 10,
         connector: ["StateMachine", { curviness: -30 }]
     })
 })
@@ -222,28 +192,22 @@ function isConnected(node1, node2) {
 }
 
 function MCBToStarter() {
-
     let MCB_nodes = [MCB_Red, MCB_Blue, MCB_Yellow]
     let Starter_nodes = [StarterInRed, StarterInBlu, StarterInYel]
     let counter = 0;
 
     for (let i = 0; i < MCB_nodes.length; i++) {
-
         for (let j = 0; j < Starter_nodes.length; j++) {
-
             if (isConnected(MCB_nodes[i], Starter_nodes[j])) {
-
                 counter = counter + 1;
             }
         }
     }
 
     if (counter == 3) {
-
         return true;
     }
     else {
-
         return false;
 
     }
@@ -394,147 +358,27 @@ function checkVoltmeter() {
 }
 
 function checkAmmeter() {
-
     if ((isConnected(StarterNodeEmpty, AmmeterNegative) && isConnected(MotorNodeEmpty, AmmeterPositive)) || (isConnected(StarterNodeEmpty, AmmeterPositive) && (isConnected(MotorNodeEmpty, AmmeterNegative)))) {
         return true
     }
-
 }
 
 check.onclick = function checkConn() {
-
     if (MCBToStarter() && StarterToMotor()) {
-        
         if (checkAmmeter() && checkVoltmeter() && (instance.getAllConnections().length == 9)) {
-
-            window.alert("Right Connections! Please Select weights and then turn on the MCB");
-
-            check.disabled = true;
+            window.alert("Right Connections! Please Select weights and then turn on the MCB")
             flags2 = 1
             w1.disabled = false
             w1.style.border = '3px solid red'
             w2.disabled = false
             w2.style.border = '3px solid red'
-
-
-            document.getElementById("label1").style.pointerEvents='none';
-            document.getElementById("label2").style.pointerEvents='none';
-            document.getElementById("label3").style.pointerEvents='none';
-            document.getElementById("label4").style.pointerEvents='none';
-            document.getElementById("label5").style.pointerEvents='none';
-            document.getElementById("label6").style.pointerEvents='none';
-            document.getElementById("label7").style.pointerEvents='none';
-            document.getElementById("label8").style.pointerEvents='none';
-            document.getElementById("label9").style.pointerEvents='none';
-            document.getElementById("label10").style.pointerEvents='none';
-            document.getElementById("label11").style.pointerEvents='none';
-            document.getElementById("label12").style.pointerEvents='none';
-            document.getElementById("label13").style.pointerEvents='none';
-            document.getElementById("label14").style.pointerEvents='none';
-            document.getElementById("label15").style.pointerEvents='none';
-            document.getElementById("label16").style.pointerEvents='none';
-
-
-            instance.addEndpoint([MCB_Red], {
-
-                endpoint: "Dot",
-                anchor: [["Center"]],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "red0",
-                paintStyle: { fill: "red", strokeWidth: 2.5 },
-                maxConnections: 0,
-                connector: ["StateMachine", { curviness: 50 }]
-            })
-        
-            instance.addEndpoint([MCB_Blue], {
-
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "blue0",
-                paintStyle: { fill: "blue", strokeWidth: 2.5 },
-                maxConnections: 0
-            })
-        
-            instance.addEndpoint([MCB_Yellow], {
-                
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "yellow0",
-                paintStyle: { fill: "yellow", strokeWidth: 2.5 },
-                maxConnections: 0
-            })
-        
-            instance.addEndpoint([StarterInBlu, StarterInRed, StarterInYel, StarterOutYel, MotorInBlu, MotorInRed, MotorInYel], {
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "red",
-                paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-                maxConnections: 0
-            })
-        
-        
-        instance.addEndpoint([StarterOutRed,StarterOutBlu], {
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "red",
-                paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-                maxConnections: 0
-            })
-
-
-
-            instance.addEndpoint([VoltmeterNegative, AmmeterNegative], {
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "blue",
-                paintStyle: { fill: "rgb(97, 97, 229)", strokeWidth: 2.5 },
-                maxConnections: 0,
-                connector: ["StateMachine", { curviness: -30 }]
-            })
-        
-            instance.addEndpoint([VoltmeterPositive, AmmeterPositive], {
-                endpoint: "Dot",
-                anchor: ["Center"],
-                isSource: true,
-                isTarget: true,
-                connectionsDetachable: true,
-                connectionType: "red",
-                paintStyle: { fill: "rgb(229, 97, 97)", strokeWidth: 2.5 },
-                maxConnections: 0,
-                connector: ["StateMachine", { curviness: -30 }]
-            })
-           
         }
-       
         
     }
 
-    else if(instance.getConnections().length == 0) {
-
-        window.alert("Please make all the connections!");
-    }  
-
     else {
 
-        window.alert("Invalid Connections!");
-
+        window.alert("Please make all the connections!")
     }
 }
 
@@ -550,10 +394,10 @@ function calculateTorque() {
         let currentOptions = [NaN, 0.5, 1, 1.5, 2, 2.5, 3]
         Current = currentOptions[w1.selectedIndex]
 
-        prnt.disabled = false;
+        prnt.disabled = false
     }
     else {
-        window.alert("Please select values of weights w1 and w2");
+        window.alert("Please select values of weights w1 and w2")
     }
 }
 
@@ -577,7 +421,6 @@ function setZero() {
 }
 
 function refresh() {
-
     calculateTorque()
     setMeters()
 
@@ -608,15 +451,8 @@ w2.oninput = function () {
     w2.style.border = '0px solid red'
     MCB.disabled = false
 
-    if(index.length == 6) {
-
-        w2.style.pointerEvents='none';
-
-    }
-
     if (MCB_state == 1) {
         refresh()
-        add.disabled=0;
     }
     
 }
@@ -640,8 +476,6 @@ MCB.onclick = function toggle_MCB() {
         allow = 1
         flags3 = 1
         add.disabled=0;
-        MCB.style.pointerEvents='none';
-        
     }
 }
 
@@ -651,7 +485,7 @@ add.onclick = function AddToTable() {
         
         calculateTorque()
         var torque = Torque;
-        var speed = MTSpeed;
+        var speed = MTSpeed
 
         let row = vtable.insertRow(index);
 
@@ -674,22 +508,14 @@ add.onclick = function AddToTable() {
 
         TorqueList.push(torque)
         SpeedList.push(speed)
+
         index = index + 1
 
+      
+
         if (index > 6) {
-            plot.disabled = false;
+            plot.disabled = false
             
-        }
-
-        if(index == 7 ){
-
-            w1.style.pointerEvents='none';
-    
-        }
-
-        if(index == 7) {
-
-            w2.style.pointerEvents='none';
         }
 
         add.disabled=1;
@@ -717,7 +543,7 @@ plot.onclick = function plotGraph() {
         data: {
             labels: TorqueList,
             datasets: [{
-                label: "TORQUE-SPEED CHARACTERISTICS",
+                label: "MOTOR",
                 fill: false,
                 lineTension: 0,
                 borderColor: "blue",
@@ -793,45 +619,45 @@ window.onload = function setJsPlumb() {
     }, 50);
 }
 
-// function highlight() {
+function highlight() {
 
-//     let conn = instance.getConnections();
+    let conn = instance.getConnections();
 
-//     if (conn.length >= 1) {
-//         s1.style.color = "black";
-//         s2.style.color = "red";
+    if (conn.length >= 1) {
+        s1.style.color = "black";
+        s2.style.color = "red";
 
-//     }
+    }
 
-//     if (flags2 == 1) {
-//         s1.style.color = "black";
-//         s2.style.color = "black";
-//         s3.style.color = "red";
-//     }
+    if (flags2 == 1) {
+        s1.style.color = "black";
+        s2.style.color = "black";
+        s3.style.color = "red";
+    }
 
-//     if (flags3 == 1) {
-//         s1.style.color = "black";
-//         s2.style.color = "black";
-//         s3.style.color = "black";
-//         s4.style.color = "red";
-//     }
+    if (flags3 == 1) {
+        s1.style.color = "black";
+        s2.style.color = "black";
+        s3.style.color = "black";
+        s4.style.color = "red";
+    }
 
-//     if ((flags4 == 1)) {
-//         s1.style.color = "black";
-//         s2.style.color = "black";
-//         s3.style.color = "black";
-//         s4.style.color = "black";
-//         s5.style.color = "red";
-//     }
+    if ((flags4 == 1)) {
+        s1.style.color = "black";
+        s2.style.color = "black";
+        s3.style.color = "black";
+        s4.style.color = "black";
+        s5.style.color = "red";
+    }
 
-//     if (flags6 == 1) {
-//         s1.style.color = "black";
-//         s2.style.color = "black";
-//         s3.style.color = "black";
-//         s4.style.color = "black";
-//         s5.style.color = "black";
-//         s6.style.color = "red";
-//     }
-// }
+    if (flags6 == 1) {
+        s1.style.color = "black";
+        s2.style.color = "black";
+        s3.style.color = "black";
+        s4.style.color = "black";
+        s5.style.color = "black";
+        s6.style.color = "red";
+    }
+}
 
 window.setInterval(highlight, 100);

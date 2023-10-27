@@ -5,7 +5,7 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|  <b> To study the torque speed characterstics of three phase induction motor.
+<b> Experiment|  <b>9. To study the torque speed characterstics of three phase induction motor.
 
 <h5> About the Experiment : </h5> <br>
 

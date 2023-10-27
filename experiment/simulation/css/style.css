@@ -33,6 +33,7 @@ body {
 
 .r2 {
     float: left;
+
     width: 1500px;
     margin: 00px 30px;
     border-radius: 10px;
@@ -41,8 +42,11 @@ body {
 
 .r2c1 {
     float: left;
+
     width: 500px;
     height: 300px;
+
+
     border-radius: 10px;
 
 }
@@ -83,6 +87,7 @@ margin-left: 20px;
 
 .r2c1 .o_table {
     float: left;
+
     width: 510px;
     height: 250px;
     background-color: #eaeaea;
@@ -165,6 +170,7 @@ margin-left: 20px;
     height: 40px;
     width: 500px;
     background-color: #eaeaea;
+
     border-radius: 10px;
     text-align: center;
 }
@@ -174,8 +180,11 @@ margin-left: 20px;
     height: 35px;
     outline: none;
     background-color: rgba(129, 129, 129, 0.313);
+
     margin: -7px 10px;
     border-radius: 10px;
+
+
     text-align: center;
     font-family: 'Foco Trial', sans-serif;
     font-size: 20px;
@@ -237,10 +246,15 @@ margin-left: 20px;
     font-size: 19px;
     padding-top: -20px;
     overflow: visible;
+
     transition: all 0.2s ease-in-out;
+
+
     position: absolute;
+
     top: 40px;
     left: -300px;
+
     height: 650px;
     width: 300px;
 }
@@ -706,7 +720,10 @@ img {
     font-family: 'Zacbel X', sans-serif;
     overflow: visible;
     position: absolute;
+
+
     font-size: 12px;
+
     border: 2px solid white;
     background-color: white;
     border-radius: 2px;
