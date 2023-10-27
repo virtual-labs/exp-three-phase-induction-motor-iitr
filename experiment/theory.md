@@ -26,12 +26,12 @@ $$ \displaystyle {N}_{s}= \frac{120 f} {P}..........(1)  $$   </p>
 where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by (2).
 
 
-$$ \displaystyle{s}=\frac {{N}_{s}–{N}_{r}} {{N}_{s}}..........(2)  $$  
+$$ \displaystyle{s}=\frac {N_s–N_r} {N_s}..........(2)  $$  
 
 
 The torque developed by the induction motor is given by (3)
 
-$$\displaystyle{T}=\frac{{{3}{\left({I}{2}\right)}^{2}{R}{2}}}{{{W}_{{s}}\cdot{S}}} $$
+$$ \displaystyle{T}=\frac {3 \left(I2\right)^2R2} {W_s\cdot S} $$
 
 
 $$\displaystyle{T}=\frac{3}{{{W}_{{s}}}}\frac{{{\left({V}_{{s}}\right)}^{2}\frac{{{R}{2}}}{{S}}}}{{{\left({R}{1}+\frac{{{R}{2}}}{{S}}\right)}^{2}+{\left({X}{1}+{X}{2}\right)}^{2}}}.......(3)   $$
