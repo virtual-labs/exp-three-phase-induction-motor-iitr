@@ -20,13 +20,13 @@ Consider a three phase squirrel cage induction motor whose stator has three wind
 
 
 
-$$\displaystyle{N}_{{s}}=\frac{{{120}{f}}}{{P}}..........(1)  $$   </p>
+$$ \displaystyle {N}_{s}= \frac{120 f} {P}..........(1)  $$   </p>
 
 
 where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by (2).
 
 
-$$\displaystyle{s}=\frac{{{N}_{{s}}–{N}_{{r}}}}{{N}_{{s}}}..........(2)     $$  
+$$ \displaystyle{s}=\frac {{N}_{s}–{N}_{r}} {{N}_{s}}..........(2)  $$  
 
 
 The torque developed by the induction motor is given by (3)
