@@ -30,14 +30,14 @@
         "correctAnswer": "c"
     },
     {
-        "question": "Slip v/s torque developed in an induction motor is?d",
+        "question": "What happens to the slip of a three-phase induction motor as the load on the motor increases?",
         "answers": {
-            "a": "A",
-            "b": "B",
-            "c": "C",
-            "d": "D"
+            "a": "The slip decreases, causing the motor to speed up.",
+            "b": "The slip remains constant, regardless of the load.",
+            "c": "The slip increases, causing the motor to slow down.",
+            "d": "The slip oscillates, leading to unstable motor operation."
         },
-        "correctAnswer": "a"
+        "correctAnswer": "c"
     },
     {
         "question": "When a three phase induction motor is rotating at steady state. Then if the load is increased then the slip will _____ and the efficiency will",

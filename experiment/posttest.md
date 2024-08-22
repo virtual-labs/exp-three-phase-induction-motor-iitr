@@ -2,7 +2,7 @@
 #### Please attempt the following questions
 <div align="justify" style="font-size:18px;">
 
-Q1. The shape of torque/slip curve of an induction motor is:
+Q1. The shape of torque/slip curve of an induction motor is:<br>
 
 A. Hyperbola<br>
 B. Ellipse<br>
@@ -10,9 +10,9 @@ C. Straight line<br>
 D. Rectangular parabola <br>
 
 Q2. Introducing the external resistance increases____.<br>
-  &nbsp; &nbsp;&nbsp; &nbsp;i. Speed<br>
-  &nbsp; &nbsp;&nbsp; &nbsp;ii. Output power<br>
-  &nbsp; &nbsp;&nbsp; &nbsp;iii. Starting torque<br>
+i. Speed<br>
+ii. Output power<br>
+iii. Starting torque<br>
 
 A. iii<br>
 B. ii,iii<br>
@@ -20,25 +20,21 @@ C. ii<br>
 D. i, ii, iii<br>
 
 Q3. Introducing the external resistance decreases____.<br>
-&nbsp; &nbsp;&nbsp; &nbsp;i. Speed<br>
-&nbsp; &nbsp;&nbsp; &nbsp;ii. Output power<br>
-&nbsp; &nbsp;&nbsp; &nbsp;iii. Starting torque<br>
+i. Speed<br>
+ii. Output power<br>
+iii. Starting torque<br>
 
 A. iii<br>
 B. ii<br>
 C. i,ii<br>
 D. i, ii, iii<br>
 
-Q4. Slip v/s torque developed in an induction motor is?
+Q4. What happens to the slip of a three-phase induction motor as the load on the motor increases?
 
-A.
-![](images/posttest1.png)<br>
-B.
-![](images/posttest2.png)<br>
-C.
-![](images/posttest3.png)<br>
-D.
-![](images/posttest4.png)<br>
+A. The slip decreases, causing the motor to speed up. <br>
+B. The slip remains constant, regardless of the load.<br>
+C. The slip increases, causing the motor to slow down.<br>
+D. The slip increases, leading to greater torque production.<br>
 
 Q5. When a three phase induction motor is rotating at steady state. Then if the load is increased then the slip will _____ and the efficiency will __________ .
 
@@ -61,7 +57,7 @@ B. Same as that of the rotating field<br>
 C. Depends in supply voltage phase sequence<br>
 D. Depends in supply voltage phases<br>
 
-Q8. If Ns is the synchronous speed and S the slip, then the actual running speed of a three- phase induction motor will be-
+Q8. If N<sub>s</sub> is the synchronous speed and s is the slip, then the actual running speed N<sub>r</sub> of a three- phase induction motor will be-
 
 A. N<sub>s</sub><br>
 B. s.N<sub>s</sub><br>
