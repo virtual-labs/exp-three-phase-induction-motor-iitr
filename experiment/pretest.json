@@ -3,8 +3,6 @@
         "question": "Which of the following is not an effect of single phasing in a three-phase induction motor?",
         "answers": {
 
-            
-
             "a": "Motor current is increasing 5 times of average current",
             "b": "Motor will continue run from running position ",
             "c": "Motor cannot be increasing the heating",
