@@ -1,29 +1,7 @@
-## Introduction (Round 0)
-
-<br>
-
-<b>Discipline | <b> Electrical Engineering
-:--|:--|
-<b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|  <b>9. To study the torque speed characterstics of three phase induction motor.
-
-<h5> About the Experiment : </h5> <br>
-
-To study the torque speed characterstics of three phase induction motor.
-
-<b>Name of Developer | <b> Prof. RS Anand
-:--|:--|
-<b> Institute | <b> IIT Roorkee
-<b> Email id|   <b> anandfee@gmail.com
-<b> Department | Electrical Engineering
-
-#### Contributors List
-
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | Prof. RS Anand | Faculty | Electrical Engineering | IIT Roorkee, Roorkee | anandfee@gmail.com
-2 | Rajeev Kumar | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | rajeevkumar.rke@gmail.com
-3 | Piyush Rawat | Project Associate | Electrical Engineering | IIT Roorkee, Roorkee | rawatpiyush72@gmail.com
-4 | Rahul Saini | Project Associate | Electrical Engineering | IIT Roorkee, Roorkee | rahul.saini8599@gmail.com
-
-<br>
+This folder has 
+### Aim
+### Theory
+### Procedure
+### Pre Test
+### Post Test
+### References
