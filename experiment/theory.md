@@ -1,6 +1,3 @@
-
-# Torque speed characterstics of three phase Induction Motor 
-
 ### Introduction
 
 <div align="justify" style="font-size:18px;">
