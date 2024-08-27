@@ -10,17 +10,20 @@
         "correctAnswer": "d"
     },
     {
-        "question": "Introducing the external resistance increases____.i. Speed ii. Output power iii. Starting torque",
+        "question": "Introducing the external resistance increases____. <br>i. Speed <br>ii. Output power <br>iii. Starting torque<br>",
+
         "answers": {
             "a": "iii",
             "b": "ii,iii",
             "c": "ii",
             "d": "i,iii,ii"
         },
+
         "correctAnswer": "a"
     },
     {
-        "question": "Introducing the external resistance decreases____. i. Speed ii. Output power iii. Starting torque",
+        "question": "Introducing the external resistance decreases____. <br>i. Speed <br> ii. Output power <br> iii. Starting torque<br>",
+
         "answers": {
             "a": "iii",
             "b": "ii,iii",
