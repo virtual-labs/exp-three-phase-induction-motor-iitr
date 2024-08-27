@@ -17,9 +17,9 @@ Figure 1: 3-phase Induction motor
 
 Consider a three phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed Ns is set up. The synchronous speed, Ns is given by (1).
 
-<div align="center">
-$ N_{s} =\frac{120 \cdot f}{P}..........(1) $ 
-</div>
+
+<center> $\displaystyle{N}_{{s}}=\frac{{{120}{f}}}{{P}}..........(1) $ </center>
+
 
 where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by (2).
 
