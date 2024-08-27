@@ -36,19 +36,19 @@ The torque developed by the induction motor is given by (3)
 
 where, W<sub>s</sub> is the synchronous speed in rps, V<sub>s</sub> is the voltage applied to the stator, I~2~, R~2~, X~2~ are the rotor current, resistance and reactance referred to stator respectively. R~1~, X~1~ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T-N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed, Tm and the slip, S<sub>m</sub> at which T<sub>m</sub> occurs is given by (4).
 
-<center> $\displaystyle{T}_{{m}}=\frac{3}{{{2}{W}_{{s}}}}\frac{{{\left({V}_{{s}}\right)}^{2}}}{{{R}{1}\pm\sqrt{{{R}{1}^{2}\pm{\left({X}{1}+{X}{2}\right)}^{2}}}}} $ </center>
+<center> $ T_m= \frac {3} {2W_s} \frac {(V_s)^2} {R1\pm\sqrt{R1^2\pm(X1+X2)^2}} $ </center>
 
 
-<center> $\displaystyle{S}_{{m}}=\frac{{{R}{2}}}{{\sqrt{{{R}{2}^{2}+{\left({X}{1}+{X}{2}\right)}^{2}}}}} $  </center>
+<center> $ S_m=\frac {R2} {\sqrt{R2^2+(X1+X2)^2}} $  </center>
 
 
-<center> $\displaystyle{S}_{{m}}∝{R}{2}$ </center>
+<center> $ S_m ∝ R2 $ </center>
 
 
 T-N<sub>r</sub> characteristics with variable stator voltage. If voltage applied to the stator of the induction motor is varied, developed torque will vary within a relation.
 
 
-<center> $\displaystyle{T}∝{\left({V}_{{s}}\right)}^{2}........(4)  $  <center>
+<center> $ T∝ (V_s)^2........(4)  $  <center>
 
 The maximum torque developed, Tm is also proportional to square of the applied voltage as in eq.(4), but S<sub>m</sub> is independent of applied voltage. So, if the T-N<sub>r</sub> characteristics is plotted for different voltages, we get the characteristics as shown in Fig. 2
 
