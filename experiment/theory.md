@@ -11,49 +11,29 @@ Figure 1: 3-phase Induction motor
 </center>
 Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed $N_S$ is set up. The synchronous speed $N_S$ is given by equation (1).
 
- $$N_s = \frac{120f}{P}.............. (1)$$
+  <center> $N_s = \frac{(120)f}{P}.............. (1)$  </center>
 
 where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed $N_r$, then the slip $s$ is defined by equation (2).
 
-<div align="center">
-
- $S = \frac{N_s - N_r}{N_s}.........(2)$
-
- </div>
+ <center> $S = \frac{N_s - N_r}{N_s}.........(2)$ </center>
 
 The torque developed by the induction motor is given by equation (3).
 
-<div align="center">
+ <center> $T = \frac{3 I_2^2 R_2}{W_s.s}$ </center>
 
- $T = \frac{3 I_2^2 R_2}{W_s.s}$
-
- </div>
-
- <div align="center">
-
- $T = \frac{3}{W_s}.\frac{V_s^2.\frac{R_2}{s}}{\left(R_1 + \frac{R_2}{s}\right)^2 + \left(X_1 + X_2\right)^2}............{3}$ <br>
-
- </div>
+ <center> $T = \frac{3}{W_s}.\frac{V_s^2.\frac{R_2}{s}}{\left(R_1 + \frac{R_2}{s}\right)^2 + \left(X_1 + X_2\right)^2}............{3}$ <br> </center>
 
 where $W_s$ is the synchronous speed in rps, $V_s$ is the voltage applied to the stator, $I_2$,$R_2$,$X_2$ are the rotor current, resistance, and reactance referred to the stator respectively, and $R_1$,$X_1$ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the $T−N_r$ characteristics as shown in Fig. 1. The maximum torque developed $T_m$ and the slip $S_m$ at which $T_m$ occurs is given by equation (4).
 
-<div align="center">
+ <center> $T_m = \frac{3}{2W_s}.\frac{V_s^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}} ...........(4)$ </center>
 
- $T_m = \frac{3}{2W_s}.\frac{V_s^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}} ...........(4)$
+ <center> $S_m = \frac{R_2}{\sqrt{R_2^2 + \left(X_1 + X_2\right)^2}}$ </center>
 
- $S_m = \frac{R_2}{\sqrt{R_2^2 + \left(X_1 + X_2\right)^2}}$
-
- $S_m \propto R_2$ <br>
-
- </div>
-
+ <center> $S_m \propto R_2$ <br> </center>
 
 If the voltage applied to the stator of the induction motor is varied, the developed torque will vary according to the relation:
- <div align="center"> 
- 
- $T \propto V_s^2 ..........(5)$
 
- </div>
+<center> $T \propto V_s^2 ..........(5)$ </center>
 
 The maximum torque developed $T_m$ is also proportional to the square of the applied voltage as in equation (5), but 
 $S_m$ is independent of the applied voltage. So, if the $T−N_r$ characteristics are plotted for different voltages, we get the characteristics as shown in Fig. 2.
@@ -62,21 +42,17 @@ $S_m$ is independent of the applied voltage. So, if the $T−N_r$ characteristic
 Figure 2: $T−Nr_$ characteristics of a three-phase induction motor</center><br> 
 
 <center> <img src="images/torque3.png" width="35%"><br>
-Figure 3: $T−N_r$ characteristics of a three-phase induction motor with variable voltage control</center><br>
+Figure 3: $T−N_r$ characteristics of a three-phase induction motor with variable voltage control
+</center><br>
 
 The torque-speed characteristics of a three-phase induction motor are a straight line between the no-load and full-load operating points. The slope of the curve depends upon the resistance of the rotor circuit i.e., the higher the rotor circuit resistance, the sharper the slope of the curve.
 
 If the weight of the load on the rotating pulley in the induction motor is W1 & W2, then the torque of the induction motor is given by equation (6).
 
-<div align="center">
+<center>$T = (W_1 - W_2)\cdot 9.81\cdot r ........(6)$ </center>
 
-$T = (W_1 - W_2)\cdot 9.81\cdot r ........(6)$
-
-</div>
-
-<center> Where \(r\) = radius of brake drum (\(r = 0.15m\)) </center><br> <center> <img src="images/torque4.png" width="50%"><br>
-Figure 4: Plot between Torque and Load current
-</center>
+ Where (r) = radius of brake drum (r = 0.15m)<br> <center> <img src="images/torque4.png" width="50%"><br>
+Figure 4: Plot between Torque and Load current</center>
 
 ### <b>Advantages of Three-phase Induction Motor: </b>
 
