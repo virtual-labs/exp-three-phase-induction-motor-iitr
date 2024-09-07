@@ -10,11 +10,11 @@ An induction motor compared to a DC motor has some major advantages such as the 
 Figure 1: 3-phase Induction motor
 
 </center>
-Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed N<sub>s</sub> is set up. The synchronous speed $$N_S$$ is given by equation (1).
+Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed N<sub>s</sub> is set up. The synchronous speed N<sub>s</sub> is given by equation (1).
 
   <center> $$N_s = \frac{(120)f}{P}.............. (1)$$  </center>
 
-where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed N<sub>r</sub>, then the slip <sub>S</sub> is defined by equation (2).
+where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed N<sub>r</sub>, then the slip S is defined by equation (2).
 
  <center> $$S = \frac{N_s - N_r}{N_s}.........(2)$$ </center>
 
