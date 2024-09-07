@@ -10,11 +10,11 @@ An induction motor compared to a DC motor has some major advantages such as the 
 Figure 1: 3-phase Induction motor
 
 </center>
-Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed $$N_s$$ is set up. The synchronous speed $$N_S$$ is given by equation (1).
+Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed N<sub>s</sub> is set up. The synchronous speed $$N_S$$ is given by equation (1).
 
   <center> $$N_s = \frac{(120)f}{P}.............. (1)$$  </center>
 
-where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed $$N_r$$, then the slip $$S$$ is defined by equation (2).
+where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed N<sub>r</sub>, then the slip <sub>S</sub> is defined by equation (2).
 
  <center> $$S = \frac{N_s - N_r}{N_s}.........(2)$$ </center>
 
@@ -22,9 +22,9 @@ The torque developed by the induction motor is given by equation (3).
 
  <center> $$T = \frac{3 I_2^2 R_2}{W_s.s}$$ </center>
 
- <center> $$T = \frac{3}{W_s}.\frac{V_s^2.\frac{R_2}{s}}{\left(R_1 + \frac{R_2}{s}\right)^2 + \left(X_1 + X_2\right)^2}............{3}$$ <br> </center>
+ <center> $$T = \frac{3}{W_s}.\frac{V_s^2.\frac{R_2}{s}}{\left(R_1 + \frac{R_2}{s}\right)^2 + \left(X_1 + X_2\right)^2}............(3)$$ <br> </center>
 
-where $$W_s$$ is the synchronous speed in rps, $$V_s$$ is the voltage applied to the stator, $$I_2$$,$$R_2$$,$$X_2$$ are the rotor current, resistance, and reactance referred to the stator respectively, and $$R_1$$,$$X_1$$ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the $$T−N_r$$ characteristics as shown in Fig. 1. The maximum torque developed $$T_m$$ and the slip $$S_m$$ at which $$T_m$$ occurs is given by equation (4).
+where W<sub>s</sub> is the synchronous speed in rpm, V<sub>s</sub> is the voltage applied to the stator, I<sub>2</sub>, R<sub>2</sub>, X<sub>2</sub> are the rotor current, resistance, and reactance referred to the stator respectively, and R<sub>1</sub>, X<sub>1</sub> are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T−N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed T<sub>m</sub> and the slip S<sub>m</sub> at which T<sub>m</sub> occurs is given by equation (4).
 
  <center> $$T_m = \frac{3}{2W_s}.\frac{V_s^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}} ...........(4)$$ </center>
 
@@ -36,14 +36,14 @@ If the voltage applied to the stator of the induction motor is varied, the devel
 
 <center> $$T \propto V_s^2 ..........(5)$$ </center>
 
-The maximum torque developed $$T_m$$ is also proportional to the square of the applied voltage as in equation (5), but 
-$$S_m$$ is independent of the applied voltage. So, if the $T−N_r$ characteristics are plotted for different voltages, we get the characteristics as shown in Fig. 2.
+The maximum torque developed T<sub>m</sub> is also proportional to the square of the applied voltage as in equation (5), but 
+S<sub>m</sub> is independent of the applied voltage. So, if the T−N<sub>r</sub> characteristics are plotted for different voltages, we get the characteristics as shown in Fig. 2.
 
 <center> <img src="images/torque2.png" width="42%"><br>
-Figure 2: $$T−Nr_$$ characteristics of a three-phase induction motor</center><br> 
+Figure 2: T−N<sub>r</sub> characteristics of a three-phase induction motor</center><br> 
 
 <center> <img src="images/torque3.png" width="35%"><br>
-Figure 3: $$T−N_r$$ characteristics of a three-phase induction motor with variable voltage control
+Figure 3: T−N<sub>r</sub> characteristics of a three-phase induction motor with variable voltage control
 </center><br>
 
 The torque-speed characteristics of a three-phase induction motor are a straight line between the no-load and full-load operating points. The slope of the curve depends upon the resistance of the rotor circuit i.e., the higher the rotor circuit resistance, the sharper the slope of the curve.
