@@ -11,7 +11,7 @@
         "correctAnswer": "c"
     },
     {
-        "question": "In an induction motor, if the rotor is locked, then the rotor frequency of induction motor will be-",
+        "question": "In an induction motor, if the rotor is locked, then the rotor frequency of the induction motor will be-",
 
         "answers": {
             "a": "Equal to the supply frequency",
@@ -32,7 +32,7 @@
         "correctAnswer": "c"
     },
     {
-        "question": "For heavy loads, the relation between torque (T) and slip(S) in induction motor is given by -",
+        "question": "For heavy loads, the relation between torque (T) and slip(S) in an induction motor is given by -",
 
         "answers": {
             "a": "T is directly proportional to s/(1-s)",
@@ -83,9 +83,9 @@
         "correctAnswer": "d"
     },
     {
-        "question": "Why three phase induction motor need starter?",
+        "question": "Why does a three phase induction motor need a starter?",
         "answers": {
-            "a": "To limit starting current",
+            "a": "To limit the starting current",
             "b": "To provide starting torque",
             "c": "To control the speed",
             "d": "None of the above"

@@ -7,6 +7,9 @@ ii.	(7-10), (8-11)<br>
 iii.(7-12), (13-14)<br>
 iv.	(8-15), (9-16)<br></b>
 <b>Note: Click on the label to delete the connection for the corresponding node.</b><br>
+
+<img src="simulation/images/Torque_Speed.png" height="325" width="600"/> <br/>
+
 <b>Step 2:</b>	Now, Check the connections by clicking on <b>‘CHECK’</b> button.<br>
 <b>Step 3:</b> Turn on the MCB.<br>
 <b>Step 4:</b> Vary the values of W1 and W2 and add readings to observation table by clicking on <b>'ADD'</b> button.<br>

@@ -1,76 +1,101 @@
-<head>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-</head>
+
+# Torque speed characterstics of three phase Induction Motor 
 
 ### Introduction
-<div align="justify" style="font-size:18px;">
-An induction motor compared to a DC motor has some major advantages such as the absence of brushes, commutator segments, rugged construction, being cheap, lesser maintenance requirements, and smaller size for the same power output. Due to these advantages, induction machines have become more popular in industrial applications. For any motor load application, it is imperative to know the torque-speed characteristic of the motor.
 
-<br><center> <img src="images/torque1.png" width="45%"><br>
-Figure 1: 3-phase Induction motor
+<div align="justify" style="font-size:18px;">
+
+An induction motor has several major advantages over a DC motor such as the absence of brushes and commutator segments, rugged construction, lower cost, reduced maintenance requirements, and smaller size for the same power output. Due to these advantages, induction machines have become more popular in industrial applications. For any motor load application, it is essential to understand the torque-speed characteristic of the motor.
+
+<center>
+
+<img src="images/torque1.png" width="45%">
+
+Figure 1: Three-phase Induction motor
 
 </center>
-Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When they are excited with currents that are displaced in time by 120°, a rotating magnetic field rotating at a speed called synchronous speed N<sub>s</sub> is set up. The synchronous speed N<sub>s</sub> is given by equation (1).
 
-  <center> $$N_s = \frac{(120)f}{P}.............. (1)$$  </center>
+Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When these windings are energised with currents that are displaced in time by 120°, a rotating magnetic field is produced, rotating at a speed called synchronous speed Ns. The synchronous speed $N_s$ is given by 
 
-where f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed N<sub>r</sub>, then the slip S is defined by equation (2).
+<div style="text-align:center">
 
- <center> $$S = \frac{N_s - N_r}{N_s}.........(2)$$ </center>
+$N_s = \frac{120f}{P} \quad \dots(1)$
+</div>
 
-The torque developed by the induction motor is given by equation (3).
+where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by
 
- <center> $$T = \frac{3 I_2^2 R_2}{W_s.s}$$ </center>
+<div style="text-align:center">
 
- <center> $$T = \frac{3}{W_s}.\frac{V_s^2.\frac{R_2}{s}}{\left(R_1 + \frac{R_2}{s}\right)^2 + \left(X_1 + X_2\right)^2}............(3)$$ <br> </center>
+$s = \frac{N_s - N_r}{N_s} \quad \dots(2)$</div>
 
-where W<sub>s</sub> is the synchronous speed in rpm, V<sub>s</sub> is the voltage applied to the stator, I<sub>2</sub>, R<sub>2</sub>, X<sub>2</sub> are the rotor current, resistance, and reactance referred to the stator respectively, and R<sub>1</sub>, X<sub>1</sub> are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T−N<sub>r</sub> characteristics as shown in Fig. 1. The maximum torque developed T<sub>m</sub> and the slip S<sub>m</sub> at which T<sub>m</sub> occurs is given by equation (4).
+The torque developed by the induction motor is given by
 
- <center> $$T_m = \frac{3}{2W_s}.\frac{V_s^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}} ...........(4)$$ </center>
+<div style="text-align:center">
 
- <center> $$S_m = \frac{R_2}{\sqrt{R_2^2 + \left(X_1 + X_2\right)^2}}$$ </center>
+$\displaystyle T = \frac{3 (I_2)^2 R_2}{W_s \cdot S}$
+</div>
 
- <center> $$S_m \propto R_2$$ <br> </center>
+<div style="text-align:center">
 
-If the voltage applied to the stator of the induction motor is varied, the developed torque will vary according to the relation:
+$T = \frac{3}{W_s} \frac{\left(V_s\right)^2 \frac{R_2}{S}}{\left(R_1 + \frac{R_2}{S}\right)^2 + \left(X_1 + X_2\right)^2} \quad \text{.......(3)}$
 
-<center> $$T \propto V_s^2 ..........(5)$$ </center>
+</div>
 
-The maximum torque developed T<sub>m</sub> is also proportional to the square of the applied voltage as in equation (5), but 
-S<sub>m</sub> is independent of the applied voltage. So, if the T−N<sub>r</sub> characteristics are plotted for different voltages, we get the characteristics as shown in Fig. 2.
+where, W<sub>s</sub> is the synchronous speed in rpm, V<sub>s</sub> is the voltage applied to the stator, I~2~, R~2~, X~2~ are the rotor current, resistance and reactance referred to stator respectively. R~1~, X~1~ are the stator resistance and reactance respectively. If equation (3) is plotted, we get the T-N<sub>r</sub> characteristics as shown in Fig. 2. The maximum torque developed, Tm and the slip, S<sub>m</sub> at which T<sub>m</sub> occurs is given by.
 
-<center> <img src="images/torque2.png" width="42%"><br>
-Figure 2: T−N<sub>r</sub> characteristics of a three-phase induction motor</center><br> 
+<div style="text-align:center">
 
-<center> <img src="images/torque3.png" width="35%"><br>
-Figure 3: T−N<sub>r</sub> characteristics of a three-phase induction motor with variable voltage control
-</center><br>
+$T_m = \frac{3}{2 W_s} \frac{\left(V_s\right)^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}}$</div>
 
-The torque-speed characteristics of a three-phase induction motor are a straight line between the no-load and full-load operating points. The slope of the curve depends upon the resistance of the rotor circuit i.e., the higher the rotor circuit resistance, the sharper the slope of the curve.
+<div style="text-align:center">
 
-If the weight of the load on the rotating pulley in the induction motor is W1 & W2, then the torque of the induction motor is given by equation (6).
+$S_m = \frac{R_2}{\sqrt{R_2^2 + (X_1 + X_2)^2}}$</div>
 
-<center>$$T = (W_1 - W_2)\cdot 9.81\cdot r ........(6)$$ </center>
+<center>
 
- Where (r) = radius of brake drum (r = 0.15m)<br> <center> <img src="images/torque4.png" width="50%"><br>
-Figure 4: Plot between Torque and Load current</center>
+<img src="images/torque2.png" width="42%">
 
-### <b>Advantages of Three-phase Induction Motor: </b>
+<!-- ![torque2](images/torque2.png) -->
+Figure 2: T-N<sub>r</sub> characteristics of a three phase induction motor </center>
 
-1. The most important advantage of an induction motor is its simple construction.
+If the voltage applied to the stator of an induction motor is varied, the developed torque will vary according to the following relation:
 
-2. The working of the motor is independent of environmental conditions because the induction motor is robust and mechanically strong.
+<div style="text-align:center">
 
-3. Due to the absence of brushes, there are no sparks in the motor. It can also be operated in hazardous conditions.
+$S_m \propto R_2$
 
-4. An induction motor is a highly efficient machine with full-load efficiency varying from 85 to 97 percent.
+$T \propto \left(V_s\right)^2 \quad ........(4)$  </div>
 
-### <b>Disadvantages of Three-phase Induction Motor: </b>
+The maximum torque developed, T<sub>m</sub> is proportional to the square of the applied voltage as in eq.(5), but S<sub>m</sub> is independent of applied voltage. Therefore, if the T-N<sub>r</sub> characteristics are plotted for different voltages, the resulting curves appear as shown in Fig. 3
 
-1. Speed control of an induction motor is very difficult to attain. This is because a three-phase induction motor is a constant-speed motor, and for the entire loading range, the change in speed of the motor is very low.
+<center>
+ 
+<img src="images/torque3.png" width="35%">
 
-2. Induction motors have high input surge currents, referred to as magnetizing inrush currents, which cause a reduction in voltage at the time of starting the motor.
+Figure 3: T-N<sub>r</sub> characteristics of a three phase induction motor
+with different voltages</center>
 
-3. Due to poor starting torque, the motor cannot be used for applications requiring high starting torque.
+If the weight of the load on the rotating pully in the induction motor is W1 & W2, then the torque of the induction motor is given by
 
+<div style="text-align:center">
+
+$T = (W_1 - W_2) \cdot 9.81 \cdot r \quad ..........(5)$ 
+</div>
+
+<center> Where, r = radius of brake drum (r=0.15m) </center>
+
+### Advantages of Three phase Induction motor
+
+* The absence of brushes eliminates sparking, allowing the motor to operate safely in hazardous environments.
+
+* The motor's operation is independent of environmental conditions due to its robust and mechanically strong design.
+
+* Induction motors are highly efficient, with full-load efficiency ranging from 85% to 97%.
+
+### Disadvantages of Three phase Induction motor
+
+ * Speed control is difficult because a three-phase induction motor operates at an almost constant speed, with minimal variation over the entire loading range. 
+
+ * High input surge currents, known as magnetizing inrush currents, occur at startup, leading to temporary voltage drops.
+ 
 </div>

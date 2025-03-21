@@ -1,6 +1,8 @@
 ## Pre Test
 #### Please attempt the following questions
 
+### Note- Reference books are available in the reference section.
+
 <div align="justify" style="font-size:18px;">
 
 Q1. Which of the following is not an effect of single phasing in a three-phase induction motor?
@@ -10,7 +12,7 @@ B. Motor will continue run from running position<br>
 C. Motor cannot be increasing the heating<br>
 D. Motor cannot be started from stop position<br>
 
-Q2. In an induction motor, if the rotor is locked, then the rotor frequency of induction motor will be-
+Q2. In an induction motor, if the rotor is locked, then the rotor frequency of the induction motor will be-
 
 A. Equal to the supply frequency<br>
 B. Less than the supply frequency<br>
@@ -24,14 +26,14 @@ B. Rotor leakage reactance<br>
 C. Magnetizing reactance<br>
 D. Stator resistance<br>
 
-Q4. For heavy loads, the relation between torque (T) and slip(S) in induction motor is given by -
+Q4. For heavy loads, the relation between torque (T) and slip(S) in an induction motor is given by -
 
 A. T is directly proportional to $s\over(1-s)$<br>
 B. T is directly proportional to s<br>
 C. T is directly proportional to (1-s)<br>
 D. T is directly proportional to 1/s<br>
 
-Q5. For a three-phase induction motor $(slip\ at \ no \ load)\over(slip \ at \ Full \ load)$? 
+Q5. For a three-phase induction motor the ratio $(slip at no load)\over(slip at Full load)$ is? 
 
 A. Always less than one<br>
 B. Always equal to one<br>
@@ -58,9 +60,9 @@ B. D.C. series motor<br>
 C. Synchronous motor<br>
 D. Asynchronous motor<br>
 
-Q9. Why three phase induction motor need starter?
+Q9. Why does a three phase induction motor need a starter?
 
-A. To limit starting current<br>
+A. To limit the starting current<br>
 B. To provide starting torque<br>
 C. To control the speed<br>
 D. None of the above<br>
