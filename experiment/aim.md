@@ -1,2 +1,2 @@
-To study the torque speed characterstics of three phase induction motor
+To study the torque speed characteristics of a three phase induction motor.
 
