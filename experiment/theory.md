@@ -1,6 +1,7 @@
-
-# Torque speed characterstics of three phase Induction Motor 
 <script src="https://cdn.jsdelivr.net/npm/jquery-ajax-request@0.0.6/lib/jquery-ajax-request.min.js"></script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 ### Introduction
 
 <div align="justify" style="font-size:18px;">
