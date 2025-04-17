@@ -20,9 +20,8 @@ Consider a three-phase squirrel cage induction motor whose stator has three wind
 
 <div style="text-align:center">
 
-\begin{displaymath}
-$N_s = \frac{120f}{P} ........(1)$ 
-\end{displaymath}
+$$N_s = \frac {120f}{P}$$  ........(1)
+$$ax^2+bx+c=0$$
  
 </div>
 
@@ -30,7 +29,7 @@ where, f is the frequency and P is the number of poles. If the rotor of the indu
 
 <div style="text-align:center">
 
-<math> $s = \frac {N_s - N_r} {N_s} ........(2) $ </math>
+$$s = \frac {N_s - N_r} {N_s}$$ ........(2)
 </div>
 
 The torque developed by the induction motor is given by
