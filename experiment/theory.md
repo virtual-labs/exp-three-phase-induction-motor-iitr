@@ -19,25 +19,26 @@ Consider a three-phase squirrel cage induction motor whose stator has three wind
 
 <div style="text-align:center">
 
-$N_s = \frac{120f}{P} \quad \dots(1)$
+$N_s = \frac{120f}{P} ........(1) $
 </div>
 
 where, f is the frequency and P is the number of poles. If the rotor of the induction motor rotates at a speed, N<sub>r</sub>, then the slip, s is defined by
 
 <div style="text-align:center">
 
-$s = \frac{N_s - N_r}{N_s} \quad \dots(2)$</div>
+$s = \frac{N_s - N_r}{N_s} ........(1) $
+</div>
 
 The torque developed by the induction motor is given by
 
 <div style="text-align:center">
 
-$\displaystyle T = \frac{3 (I_2)^2 R_2}{W_s \cdot S}$
+$\displaystyle T = \frac{3 (I_2)^2 \cdot R_2}{W_s \cdot S} $
 </div>
 
 <div style="text-align:center">
 
-$T = \frac{3}{W_s} \frac{\left(V_s\right)^2 \frac{R_2}{S}}{\left(R_1 + \frac{R_2}{S}\right)^2 + \left(X_1 + X_2\right)^2} \quad \text{.......(3)}$
+$T = \frac{3}{W_s} \frac{\left(V_s\right)^2 \frac{R_2}{S}}{\left(R_1 + \frac{R_2}{S}\right)^2 + \left(X_1 + X_2\right)^2} \quad \text{.......(3)} $
 
 </div>
 
@@ -45,11 +46,13 @@ where, W<sub>s</sub> is the synchronous speed in rpm, V<sub>s</sub> is the volta
 
 <div style="text-align:center">
 
-$T_m = \frac{3}{2 W_s} \frac{\left(V_s\right)^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}}$</div>
+$T_m = \frac{3}{2 W_s} \frac{\left(V_s\right)^2}{R_1 \pm \sqrt{R_1^2 \pm \left(X_1 + X_2\right)^2}} $
+\</div>
 
 <div style="text-align:center">
 
-$S_m = \frac{R_2}{\sqrt{R_2^2 + (X_1 + X_2)^2}}$</div>
+$S_m = \frac{R_2}{\sqrt{R_2^2 + (X_1 + X_2)^2}} $
+</div>
 
 <center>
 
@@ -64,7 +67,8 @@ If the voltage applied to the stator of an induction motor is varied, the develo
 
 $S_m \propto R_2$
 
-$T \propto \left(V_s\right)^2 \quad ........(4)$  </div>
+$T \propto \left(V_s\right)^2 \quad ........(4) $  
+</div>
 
 The maximum torque developed, T<sub>m</sub> is proportional to the square of the applied voltage as in eq.(5), but S<sub>m</sub> is independent of applied voltage. Therefore, if the T-N<sub>r</sub> characteristics are plotted for different voltages, the resulting curves appear as shown in Fig. 3
 
@@ -79,7 +83,7 @@ If the weight of the load on the rotating pully in the induction motor is W1 & W
 
 <div style="text-align:center">
 
-$T = (W_1 - W_2) \cdot 9.81 \cdot r \quad ..........(5)$ 
+$T = (W_1 - W_2) \cdot 9.81 \cdot r ..........(5) $ 
 </div>
 
 <center> Where, r = radius of brake drum (r=0.15m) </center>
