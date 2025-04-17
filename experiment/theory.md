@@ -1,6 +1,6 @@
 
 # Torque speed characterstics of three phase Induction Motor 
-
+<script src="https://cdn.jsdelivr.net/npm/jquery-ajax-request@0.0.6/lib/jquery-ajax-request.min.js"></script>
 ### Introduction
 
 <div align="justify" style="font-size:18px;">
@@ -19,7 +19,7 @@ Consider a three-phase squirrel cage induction motor whose stator has three wind
 
 <div style="text-align:center">
 
- $N_s = \frac {120f} {P} ........(1)$
+ $ N_s = \frac {120f} {P} ........(1) $
  
 </div>
 
@@ -27,7 +27,7 @@ where, f is the frequency and P is the number of poles. If the rotor of the indu
 
 <div style="text-align:center">
 
-$$s = \frac {N_s - N_r} {N_s} ........(2)$$
+$$ s = \frac {N_s - N_r} {N_s} ........(2) $$
 </div>
 
 The torque developed by the induction motor is given by
