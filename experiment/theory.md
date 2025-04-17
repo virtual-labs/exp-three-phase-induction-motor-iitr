@@ -16,11 +16,11 @@ Figure 1: Three-phase Induction motor
 
 </center>
 
-Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When these windings are energised with currents that are displaced in time by 120°, a rotating magnetic field is produced, rotating at a speed called synchronous speed Ns. The synchronous speed $$N_s$$ is given by 
+Consider a three-phase squirrel cage induction motor whose stator has three windings displaced in space by 120°. When these windings are energised with currents that are displaced in time by 120°, a rotating magnetic field is produced, rotating at a speed called synchronous speed Ns. The synchronous speed N<sub>s</sub> is given by 
 
 <div style="text-align:center">
 
- $$N_s = \frac {120f}{P}$$  <b>........(1)</b>
+ $$N_s = \frac {120f}{P}........(1)$$  
  
  </div>
 
@@ -28,7 +28,7 @@ where, f is the frequency and P is the number of poles. If the rotor of the indu
 
 <div style="text-align:center">
 
-$$s = \frac {N_s - N_r} {N_s}$$ ........(2)
+$$s = \frac {N_s - N_r} {N_s}........(2)$$ 
 </div>
 
 The torque developed by the induction motor is given by
@@ -87,8 +87,7 @@ If the weight of the load on the rotating pully in the induction motor is W1 & W
 
 $$T = (W_1 - W_2) \cdot 9.81 \cdot r ..........(5)$$ 
 </div>
-
-<center> Where, r = radius of brake drum (r=0.15m) </center>
+Where, r = radius of brake drum (r=0.15m)
 
 ### Advantages of Three phase Induction motor
 
