@@ -19,7 +19,7 @@ Consider a three-phase squirrel cage induction motor whose stator has three wind
 
 <div style="text-align:center">
 
- $ N_s = \frac {120f} {P} ........(1) $
+$$N_s = \frac{120f}{P} ........(1)$$
  
 </div>
 
