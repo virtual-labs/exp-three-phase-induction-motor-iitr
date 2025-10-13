@@ -1,0 +1,102 @@
+[
+    {
+        "question": "The shape of the torque/slip curve of an induction motor is:",
+        "answers": {
+            "a": "Hyperbola",
+            "b": "Ellipse",
+            "c": "Straight line",
+            "d": "Rectangular parabola "
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Introducing the external resistance increases____.i. Speed ii. Output power iii. Starting torque",
+        "answers": {
+            "a": "iii",
+            "b": "ii,iii",
+            "c": "ii",
+            "d": "i,iii,ii"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Introducing the external resistance decreases____. i. Speed ii. Output power iii. Starting torque",
+        "answers": {
+            "a": "iii",
+            "b": "ii,iii",
+            "c": "i,ii",
+            "d": "i,iii,ii"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What happens to the slip of a three-phase induction motor as the load on the motor increases?",
+        "answers": {
+            "a": "The slip decreases, causing the motor to speed up.",
+            "b": "The slip remains constant, regardless of the load.",
+            "c": "The slip increases, causing the motor to slow down.",
+            "d": "The slip oscillates, leading to unstable motor operation."
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "When a three-phase induction motor is rotating at steady state,if the load is increased then the slip will _____ and the efficiency will",
+        "answers": {
+            "a": "Decrease ,Increase",
+            "b": "Decrease ,Increase",
+            "c": "Increase ,Increase",
+            "d": "Increase ,Decrease"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "A properly shunted centre-zero galvanometer is connected in the rotor circuit of a 6-pole, 50Hz wound rotor Induction motor.If the galvanometer makes 90 complete oscillations in one minute, the speed of rotor would be-",
+        "answers": {
+            "a": "970rpm",
+            "b":"740rpm",
+            "c": "880rpm",
+            "d": "1000rpm"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "The slip of an induction motor at full load typically falls within the range of:",
+        "answers": {
+            "a": "0.1% to 0.5%",
+            "b": "0.5% to 5% ",
+            "c": "5% to 10%",
+            "d": "10% to 15%"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "If Ns is the synchronous speed and s is the slip, then the actual running speed of a three-phase induction motor will be-",
+        "answers": {
+            "a": "  N~S~",
+            "b": "SN~S~",
+            "c": "(1-s)N~s~",
+            "d": "(N~S~-1)S"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "A 3-phase 440v, 50Hz induction motor has 4% slip. The frequency of rotor e.m.f. will be-",
+        "answers": {
+            "a": "200Hz",
+            "b": "50Hz",
+            "c": "2Hz",
+            "d": "0.2Hz"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "A 6 pole, 50 Hz, 3-phase induction motor is running at 950 rpm. It has rotor copper loss of 5 KW. The rotor input will be -",
+        "answers": {
+            "a": "100 KW",
+            "b": "95 KW",
+            "c": "10 KW",
+            "d": "5.3 KW"
+        },
+        "correctAnswer": "a"
+    }
+]

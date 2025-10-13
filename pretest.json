@@ -1,0 +1,105 @@
+[
+    {
+        "question": "Which of the following is not an effect of single phasing in a three-phase induction motor?",
+        "answers": {
+
+            "a": "Motor current is increasing 5 times of average current",
+            "b": "Motor will continue run from running position ",
+            "c": "Motor cannot be increasing the heating",
+            "d": "Motor cannot be started from stop position"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "In an induction motor, if the rotor is locked, then the rotor frequency of the induction motor will be-",
+
+        "answers": {
+            "a": "Equal to the supply frequency",
+            "b": "Less than the supply frequency",
+            "c": "More than the supply frequency",
+            "d": "Zero "
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "The parameter of an equivalent circuit of a three-phase induction motor affected by reducing the rms value of the supply voltage at the rated frequency is -",
+        "answers": {
+            "a": "Rotor resistance",
+            "b": "Rotor leakage reactance",
+            "c": "Magnetizing reactance",
+            "d": "Stator resistance"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "For heavy loads, the relation between torque (T) and slip(S) in an induction motor is given by -",
+
+        "answers": {
+            "a": "T is directly proportional to s/(1-s)",
+            "b": "T is directly proportional to s",
+            "c": "T is directly proportional to (1-s)",
+            "d": "T is directly proportional to 1/s"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "For a three-phase induction motor (slip at  no  load)/(slip  at  Full  load)?",
+        "answers": {
+            "a": "Always less than one",
+            "b": "Always equal to one",
+            "c": "Always less than zero",
+            "d": "Always equal to zero"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "The starting torque of an induction motor is____when rotor resistance equals rotor reactance -",
+        "answers": {
+            "a": "Minimum",
+            "b": "Constant",
+            "c": "Maximum",
+            "d": "Zero"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "The number of slip rings on a squirrel cage induction motor is usually",
+        "answers": {
+            "a": "Two",
+            "b": "Three",
+            "c": "Four",
+            "d": "None"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "An induction motor is identical to",
+        "answers": {
+            "a": "compound motor",
+            "b": "series motor",
+            "c": "Synchronous motor",
+            "d": "Asynchronous motor"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Why does a three phase induction motor need a starter?",
+        "answers": {
+            "a": "To limit the starting current",
+            "b": "To provide starting torque",
+            "c": "To control the speed",
+            "d": "None of the above"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "In a three-phase induction motor, the maximum torque is independent of-",
+        "answers": {
+            "a": "Rotor reactance",
+            "b": "Rotor resistance",
+            "c": "Synchronous speed",
+            "d": "Applied voltage"
+        },
+        "correctAnswer": "b"
+    }
+]
